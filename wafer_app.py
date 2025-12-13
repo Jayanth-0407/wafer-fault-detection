@@ -39,7 +39,7 @@ transform = transforms.Compose([
 @st.cache_resource
 def load_model():
     model=WaferFault(num_classes=9)
-    model.load_state_dict(torch.load("wafer_fault_Detect/wafer_model.pth", map_location=torch.device('cpu')))
+    model.load_state_dict(torch.load("wafer_model.pth", map_location=torch.device('cpu')))
     model.eval()
     return model
 
