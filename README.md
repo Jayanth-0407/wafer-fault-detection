@@ -8,6 +8,8 @@
 
 This project focuses on automated **semiconductor wafer defect classification** using deep learning. A custom Convolutional Neural Network (CNN) and a **ResNet18 transfer learning model** were developed and evaluated to identify wafer faults from image data. The best-performing model was deployed as an interactive **Streamlit web application**, demonstrating a complete end-to-end machine learning workflow.
 
+This project utilizes the WM-811K classification standard, the primary benchmark dataset for semiconductor wafer map analysis as the target classes (e.g., Center, Edge-Ring, Scratch) are industry-recognized spatial signatures used to correlate specific defect patterns.
+
 # Key Features
 
 * Wafer defect classification using deep learning
